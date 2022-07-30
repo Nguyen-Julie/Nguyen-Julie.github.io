@@ -1,4 +1,4 @@
-# MODULES
+#coursera-html=css-javascript
 
 MODULE 2 ASSIGNMENT:
-- [Source code](./module2-solution)
+- [Solution](https://nguyen-julie.github.io/coursera-html-css-javascript/module2-solution)
