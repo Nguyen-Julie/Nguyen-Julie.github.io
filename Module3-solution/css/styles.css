@@ -1,68 +1,52 @@
-body {
-  font-size: 16px;
-  color: rgba(34, 33, 33, 0.884);
-  background-color: #d1a360;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+div > p {
+	text-align: justify;
 }
 
-#header-nav {
-  background-color: #857a61;
-  border-radius: 0;
-  border: 0;
-  min-height: 70px;
+.content-cell {
+	background-color: #DDCDBB;
+	margin-bottom: 15px;
+	padding: 10px 15px;
 }
 
-.navbar-brand h1 {
-  font-family: 'Lora', serif;
-  color: #d1a360;
-  font-size: 1.8em;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  line-height: .75;
+.content-cell h2 {
+	margin-top: -5px;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+/* Not XS screen */
+@media (min-width:768px){
+	#collapsable-nav {
+		visibility: hidden;
+	}
 }
 
-#nav-list a {
-  color: #d1a360;
-  font-weight: bold;
-}
-
-#nav-list a:hover {
-  background: rgb(236, 236, 209);
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #80bad1;
-}
-
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
-
-#page-title {
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-#main-text {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.text-background {
-  height: 3000px;
-  padding: 20px 40px 20px 40px;
-  background-color: rgb(236, 236, 209);
-  overflow: hidden;
-}
-
-h3 {
-  font-size: 1.3m;
-  font-weight: bold;
+/* XS screen */
+@media (max-width:767px){
+	
+	.navbar-brand {
+		margin-left: 15px;
+	}
+	
+	.content-cell {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	
+	#collapsable-nav {
+		background-color: #EDEDDF;
+	}
+	
+	#nav-list {		
+		margin-bottom: 1px;
+		margin-top: 0px;
+	}
+	
+	#nav-list li{
+		text-align: center;
+		border: 1px solid #559955;
+		margin-bottom:-1px;
+	}
+	#nav-list li:hover{
+		font-weight: bold;
+		background-color: #BBDDBB;
+	}
 }
