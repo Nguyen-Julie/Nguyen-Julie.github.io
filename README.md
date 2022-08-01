@@ -10,3 +10,6 @@ MODULE 3 ASSIGNMENT:
 
 MODULE 4 ASSIGNMENT:
 - [Solution](https://Nguyen-Julie.github.io/Module4-solution/index.html)
+
+MODULE 5 ASSIGNMENT:
+-[Solution]((https://Nguyen-Julie.github.io/Module5-solution/index.html)
